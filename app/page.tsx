@@ -63,16 +63,17 @@ function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
           flexDirection: 'column',
           gap: 24,
         }}
+        className="info-modal"
         onClick={e => e.stopPropagation()}
       >
         <button onClick={onClose} style={{ position: "absolute", right: 24, top: 24, background: "none", border: "none", fontSize: 24, cursor: "pointer", fontFamily: 'Garamond, serif', borderRadius: 0 }}>×</button>
-        <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 0, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Sobre mí</div>
+        <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 0, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Lucas Toro</div>
         <div className="modal-columns" style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
-          <div style={{ flex: 1, minWidth: 220, fontSize: 15, lineHeight: 1.7, color: '#444', fontWeight: 300, letterSpacing: '0.01em' }}>
+          <div style={{ flex: 1, minWidth: 220, fontSize: 15, lineHeight: 1.4, color: '#444', fontWeight: 300, letterSpacing: '0.01em' }}>
             Artista visual, escritor y músico. Nacido en 1987 en El Palomar, Provincia de Buenos Aires.<br />
             Licenciado en Artes Multimediales por la Universidad Nacional de las Artes (UNA).
-            <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Formación y Trayectoria Profesional:</div>
-            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.6 }}>
+            <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Formación y Trayectoria Profesional</div>
+            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4 }}>
               <li>Clínica de obra: Ernesto Ballesteros.</li>
               <li>Clases de pintura: Melisa Calabria.</li>
               <li>Asistencias profesionales: Daniel Scheimberg y Alejandra Metler.</li>
@@ -80,16 +81,16 @@ function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
               <li>Diseño ejecutivo: Complejo C Art Media.</li>
               <li>Producción, dirección artística y arte visual: Fiestas Witches, C ART MEDIA, Carta de vinos de la parrilla Don Julio, Undertones, +160, Killerdrumz, La Plateada, Underclub, La Malcriada, Hiedrah Club de Baile.</li>
             </ul>
-            <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Exposiciones:</div>
-            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.6 }}>
+            <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Exposiciones</div>
+            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4 }}>
               <li>Vanitas I – Moria Galería (Individual, 2015)</li>
               <li>Vanitas II – Moria Galería (Individual, 2016)</li>
               <li>Legion – Convoi Galería (Individual, 2017)</li>
               <li>HADAS – Galería 13 Bazar Kiosco Taller (Grupal, 2024)</li>
               <li>Pic Nic – Sheikobs (Individual, 2024)</li>
             </ul>
-            <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Performances Artísticas:</div>
-            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.6 }}>
+            <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Performances Artísticas</div>
+            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4 }}>
               <li>Espacio La Factoría, Talleres Abiertos (2024)</li>
               <li>Espacio Unión Informática, Talleres Abiertos (2024)</li>
               <li>Fundación El Mirador, Cierre de la muestra &quot;¿Cuántos Artilugios Compone una piedra?&quot; por Lila Llunez</li>
@@ -97,14 +98,14 @@ function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
               <li>Galería Moria, Cierre de muestra &quot;519600&quot; por Maxi Murad (2023)</li>
             </ul>
           </div>
-          <div style={{ flex: 1, minWidth: 220, fontSize: 15, lineHeight: 1.7, color: '#444', fontWeight: 300, letterSpacing: '0.01em' }}>
-            <div style={{ fontSize: 13, color: '#888', margin: '0 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Proyectos Musicales y Colectivos:</div>
-            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 18, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.6 }}>
+          <div style={{ flex: 1, minWidth: 220, fontSize: 15, lineHeight: 1.4, color: '#444', fontWeight: 300, letterSpacing: '0.01em' }}>
+            <div style={{ fontSize: 13, color: '#888', margin: '0 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Proyectos Musicales y Colectivos</div>
+            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 18, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4 }}>
               <li>Cine Shampoo (2008–2012): Colectivo de Noise y música experimental. Presentaciones en La Trastienda junto a Animal Collective, Festival Tratado de Integración 03 Pulso (Neuquén) y La Alianza Francesa.</li>
               <li>LNGCHPS: Proyecto musical con más de 70 álbumes editados desde 2009.</li>
             </ul>
-            <div style={{ fontSize: 13, color: '#888', margin: '0 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Contacto:</div>
-            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.6 }}>
+            <div style={{ fontSize: 13, color: '#888', margin: '0 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Contacto</div>
+            <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4 }}>
               <li>Teléfono: 011 15 39368411</li>
               <li>Correo electrónico: <a href="mailto:lucastorodesign@gmail.com" style={{ color: '#888' }}>lucastorodesign@gmail.com</a></li>
               <li>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888' }}>@lngchps</a></li>
@@ -112,15 +113,18 @@ function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
           </div>
         </div>
         <style>{`
-          @media (min-width: 700px) {
+          @media (max-width: 700px) {
+            .info-modal {
+              padding: 12px !important;
+              font-size: 13px !important;
+            }
             .modal-columns {
-              flex-direction: row !important;
-              gap: 48px !important;
-              text-align: left !important;
+              flex-direction: column !important;
+              gap: 18px !important;
             }
-            .modal-columns > div {
-              flex: 1 1 0;
-            }
+          }
+          .info-modal, .info-modal * {
+            line-height: 1.4 !important;
           }
         `}</style>
       </div>
@@ -215,11 +219,14 @@ function SelectedWorks({ images }: { images: { src: string; title: string; price
   return (
     <section style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 1.2rem 0.2rem' }}>
       <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 18, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Obras seleccionadas</div>
-      <div style={{
-        columnCount: 2,
-        columnGap: '18px',
-        maxWidth: '100%',
-      }}>
+      <div
+        style={{
+          columnCount: 2,
+          columnGap: '18px',
+          maxWidth: '100%',
+        }}
+        className="selected-works-grid"
+      >
         {images.slice(0, 12).map((img) => (
           <div key={img.src} style={{
             background: '#fff',
@@ -239,6 +246,14 @@ function SelectedWorks({ images }: { images: { src: string; title: string; price
         ))}
       </div>
       <ImageModal open={!!modalImg} onClose={() => setModalImg(null)} img={modalImg || undefined} />
+      <style>{`
+        @media (max-width: 700px) {
+          .selected-works-grid {
+            column-count: 1 !important;
+            padding: 0 2vw;
+          }
+        }
+      `}</style>
     </section>
   );
 }
@@ -247,16 +262,16 @@ function AboutAndAwards() {
   return (
     <section style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 1.2rem 0.2rem', display: 'flex', flexDirection: 'column', gap: 18 }}>
       <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 18, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Sobre mí</div>
-      <div style={{ fontSize: 15, marginBottom: 12, lineHeight: 1.7, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>
+      <div style={{ fontSize: 15, marginBottom: 12, lineHeight: 1.45, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>
         Soy Lucas Toro, artista visual, escritor y músico. Nacido en 1987 en El Palomar, Provincia de Buenos Aires. Licenciado en Artes Multimediales por la UNA. Mi trabajo explora la relación entre imagen, sonido y palabra, abordando temáticas contemporáneas desde una perspectiva experimental y poética.
       </div>
       <div style={{ fontSize: 13, color: '#888', marginBottom: 6, fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center' }}>Premios y distinciones:</div>
-      <ul style={{ fontSize: 13, color: '#888', margin: '0 auto 0 auto', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.6, textAlign: 'center', listStyle: 'none', padding: 0 }}>
+      <ul style={{ fontSize: 13, color: '#888', margin: '0 auto 0 auto', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4, textAlign: 'center', listStyle: 'none', padding: 0 }}>
         <li>Premio Fundación El Mirador (2023)</li>
         <li>Beca de Creación FNA (2022)</li>
         <li>Residencia MUSGO / UNA Multimedia (2021)</li>
       </ul>
-      <div style={{ fontSize: 13, color: '#888', lineHeight: 1.6, fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', marginTop: 10 }}>
+      <div style={{ fontSize: 13, color: '#888', lineHeight: 1.4, fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', marginTop: 10 }}>
         Clínica de obra: Ernesto Ballesteros.<br />
         Clases de pintura: Melisa Calabria.<br />
         Asistencias profesionales: Daniel Scheimberg y Alejandra Metler.<br />
@@ -270,10 +285,10 @@ function ContactSection() {
   return (
     <section style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 2rem 0.2rem', display: 'flex', flexDirection: 'column', gap: 10, alignItems: 'center' }}>
       <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 18, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Contacto</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>lucastorodesign@gmail.com</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>011 15 39368411</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lngchps</a></div>
-      <div style={{ color: '#bbb', fontSize: 13, fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', marginTop: 10 }}>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>lucastorodesign@gmail.com</div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>011 15 39368411</div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lngchps</a></div>
+      <div style={{ color: '#bbb', fontSize: 13, fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', marginTop: 10, lineHeight: 1.4 }}>
         El Palomar, Provincia de Buenos Aires, Argentina
       </div>
     </section>
@@ -305,7 +320,7 @@ export default function Home() {
       </nav>
       <div style={{ display: 'flex', height: 'calc(100vh - 70px)', width: '100vw' }}>
         {sidebarOpen && (
-          <aside ref={sidebarRef} style={{ width: 180, background: '#faf9f6', borderRight: '1px solid #eee', padding: '2rem 0.5rem', fontFamily: 'Garamond, serif', height: '100%', transition: 'width 0.2s', opacity: 1 }}>
+          <aside ref={sidebarRef} style={{ width: 180, background: '#faf9f6', borderRight: '1px solid #eee', padding: '2rem 0.5rem', fontFamily: 'Garamond, serif', height: '100%', transition: 'width 0.2s', opacity: 1 }} className="sidebar-responsive">
             <div style={{ fontWeight: 600, marginBottom: 24, fontSize: 18, letterSpacing: '-0.01em' }}>Colecciones</div>
             {collections.map((col) => (
               <button
@@ -331,6 +346,21 @@ export default function Home() {
                 {col.name}
               </button>
             ))}
+            <style>{`
+              @media (max-width: 700px) {
+                .sidebar-responsive {
+                  width: 100vw !important;
+                  min-width: 0 !important;
+                  border-right: none !important;
+                  padding: 1rem 0.5rem !important;
+                  position: absolute;
+                  left: 0;
+                  top: 70px;
+                  z-index: 100;
+                  background: #faf9f6;
+                }
+              }
+            `}</style>
           </aside>
         )}
         <main style={{ flex: 1, height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff', transition: 'margin-left 0.2s' }}>
