@@ -17,6 +17,12 @@ body {
   font-family: Garamond, serif;
   background: #fff;
   color: #171717;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+  display: none;
 }
 
 * {
