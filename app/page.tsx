@@ -106,7 +106,7 @@ function InfoModal({ open, onClose }: { open: boolean; onClose: () => void }) {
             </ul>
             <div style={{ fontSize: 13, color: '#888', margin: '0 0 6px 0', fontWeight: 400, letterSpacing: '0.01em' }}>Contacto</div>
             <ul style={{ fontSize: 13, color: '#888', marginLeft: 18, marginBottom: 0, fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4 }}>
-              <li>Teléfono: 011 15 39368411</li>
+              <li>Teléfono: <a href="https://wa.me/541539368411" style={{ color: '#888' }} target="_blank" rel="noopener noreferrer">011 15 39368411</a></li>
               <li>Correo electrónico: <a href="mailto:lucastorodesign@gmail.com" style={{ color: '#888' }}>lucastorodesign@gmail.com</a></li>
               <li>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888' }}>@lngchps</a></li>
             </ul>
@@ -260,24 +260,33 @@ function SelectedWorks({ images }: { images: { src: string; title: string; price
 
 function AboutAndAwards() {
   return (
-    <section style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 1.2rem 0.2rem', display: 'flex', flexDirection: 'column', gap: 18 }}>
+    <section className="about-section" style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 1.2rem 0.2rem', display: 'flex', flexDirection: 'column', gap: 18 }}>
       <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 18, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Sobre mí</div>
       <div style={{ fontSize: 15, marginBottom: 12, lineHeight: 1.45, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>
-        Soy Lucas Toro, artista visual, escritor y músico. Nacido en 1987 en El Palomar, Provincia de Buenos Aires. Mi trabajo explora la relación entre el romanticismo y la fantasía, abordando temáticas contemporáneas desde una perspectiva experimental y poética.
+        Artista visual, escritor y músico. Nacido en 1987 en El Palomar, Buenos Aires. Licenciado en Artes Multimediales (UNA). Mi trabajo explora la relación entre el romanticismo y la fantasía, abordando temáticas contemporáneas desde una perspectiva experimental y poética.
       </div>
-      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Formación</div>
+      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Formación y Trayectoria</div>
       <ul style={{ fontSize: 13, color: '#888', margin: '0 auto 0 auto', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4, textAlign: 'center', listStyle: 'none', padding: 0 }}>
-        <li>AXA Fundación El Mirador (2023)</li>
-        <li>Residencia MUSGO(2025) / UNA Multimedia (2014)</li>
-        <li>Clínica de obra: Ernesto Ballesteros.</li>
-        <li>Clases de pintura: Melisa Calabria.</li>
-        <li>Asistencias profesionales: Daniel Scheimberg y Alejandra Metler.</li>
-        <li>Diseño ejecutivo: Complejo C Art Media.</li>
+        <li>Licenciado en Artes Multimediales (UNA)</li>
+        <li>Clínica de obra: Ernesto Ballesteros</li>
+        <li>Clases de pintura: Melisa Calabria</li>
+        <li>Asistencias profesionales: Daniel Scheimberg y Alejandra Metler</li>
+        <li>Residencia MUSGO / UNA Multimedia</li>
+        <li>Diseño ejecutivo: Complejo C Art Media</li>
       </ul>
-      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Contacto</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>lucastorodesign@gmail.com</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>011 15 39368411</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lngchps</a></div>
+      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Exposiciones recientes</div>
+      <ul style={{ fontSize: 13, color: '#888', margin: '0 auto 0 auto', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4, textAlign: 'center', listStyle: 'none', padding: 0 }}>
+        <li>Vanitas I y II – Moria Galería</li>
+        <li>Legion – Convoi Galería</li>
+        <li>HADAS – Galería 13 Bazar Kiosco Taller</li>
+        <li>Pic Nic – Sheikobs</li>
+      </ul>
+      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Proyectos musicales</div>
+      <ul style={{ fontSize: 13, color: '#888', margin: '0 auto 0 auto', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4, textAlign: 'center', listStyle: 'none', padding: 0 }}>
+        <li>Cine Shampoo (2008–2012): Colectivo de Noise y música experimental</li>
+        <li>LNGCHPS: Proyecto musical con más de 70 álbumes editados desde 2009</li>
+        <li>Bandcamp: <a href="http://lngchps.bandcamp.com/" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>lngchps.bandcamp.com</a></li>
+      </ul>
     </section>
   );
 }
@@ -286,9 +295,18 @@ function ContactSection() {
   return (
     <section style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 2rem 0.2rem', display: 'flex', flexDirection: 'column', gap: 10, alignItems: 'center' }}>
       <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 18, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Contacto</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>lucastorodesign@gmail.com</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>011 15 39368411</div>
-      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lngchps</a></div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>
+        <a href="https://wa.me/541539368411" style={{ color: '#888', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">011 15 39368411</a>
+      </div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>
+        <a href="mailto:lucastorodesign@gmail.com" style={{ color: '#888' }}>lucastorodesign@gmail.com</a>
+      </div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>
+        Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lngchps</a>
+      </div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>
+        Bandcamp: <a href="http://lngchps.bandcamp.com/" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>lngchps.bandcamp.com</a>
+      </div>
       <div style={{ color: '#bbb', fontSize: 13, fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', marginTop: 10, lineHeight: 1.4 }}>
         El Palomar, Provincia de Buenos Aires, Argentina
       </div>
@@ -366,12 +384,26 @@ export default function Home() {
         )}
         <main style={{ flex: 1, height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff', transition: 'margin-left 0.2s' }}>
           <Slider images={imagesByCollection[collection]} />
-        </main>
+      </main>
       </div>
       <SelectedWorks images={imagesByCollection[collection]} />
       <AboutAndAwards />
       <ContactSection />
       <InfoModal open={modal} onClose={() => setModal(false)} />
+      <style>{`
+        @media (max-width: 700px) {
+          .selected-works-grid {
+            column-count: 1 !important;
+            padding: 0 2vw;
+          }
+          .about-section, .about-section * {
+            word-break: break-word !important;
+            font-size: 13px !important;
+            padding-left: 2vw !important;
+            padding-right: 2vw !important;
+          }
+        }
+      `}</style>
     </div>
   );
 }
