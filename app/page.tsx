@@ -263,20 +263,21 @@ function AboutAndAwards() {
     <section style={{ maxWidth: 700, margin: '0 auto', padding: '1.2rem 0.2rem 1.2rem 0.2rem', display: 'flex', flexDirection: 'column', gap: 18 }}>
       <div style={{ fontSize: 18, fontWeight: 400, marginBottom: 18, letterSpacing: '0.04em', color: '#222', textTransform: 'uppercase', textAlign: 'center' }}>Sobre mí</div>
       <div style={{ fontSize: 15, marginBottom: 12, lineHeight: 1.45, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center' }}>
-        Soy Lucas Toro, artista visual, escritor y músico. Nacido en 1987 en El Palomar, Provincia de Buenos Aires. Licenciado en Artes Multimediales por la UNA. Mi trabajo explora la relación entre imagen, sonido y palabra, abordando temáticas contemporáneas desde una perspectiva experimental y poética.
+        Soy Lucas Toro, artista visual, escritor y músico. Nacido en 1987 en El Palomar, Provincia de Buenos Aires. Mi trabajo explora la relación entre el romanticismo y la fantasía, abordando temáticas contemporáneas desde una perspectiva experimental y poética.
       </div>
-      <div style={{ fontSize: 13, color: '#888', marginBottom: 6, fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center' }}>Premios y distinciones:</div>
+      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Formación</div>
       <ul style={{ fontSize: 13, color: '#888', margin: '0 auto 0 auto', fontWeight: 300, letterSpacing: '0.01em', lineHeight: 1.4, textAlign: 'center', listStyle: 'none', padding: 0 }}>
-        <li>Premio Fundación El Mirador (2023)</li>
-        <li>Beca de Creación FNA (2022)</li>
-        <li>Residencia MUSGO / UNA Multimedia (2021)</li>
+        <li>AXA Fundación El Mirador (2023)</li>
+        <li>Residencia MUSGO(2025) / UNA Multimedia (2014)</li>
+        <li>Clínica de obra: Ernesto Ballesteros.</li>
+        <li>Clases de pintura: Melisa Calabria.</li>
+        <li>Asistencias profesionales: Daniel Scheimberg y Alejandra Metler.</li>
+        <li>Diseño ejecutivo: Complejo C Art Media.</li>
       </ul>
-      <div style={{ fontSize: 13, color: '#888', lineHeight: 1.4, fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', marginTop: 10 }}>
-        Clínica de obra: Ernesto Ballesteros.<br />
-        Clases de pintura: Melisa Calabria.<br />
-        Asistencias profesionales: Daniel Scheimberg y Alejandra Metler.<br />
-        Diseño ejecutivo: Complejo C Art Media.<br />
-      </div>
+      <div style={{ fontSize: 13, color: '#888', margin: '18px 0 6px 0', fontWeight: 400, letterSpacing: '0.01em', textAlign: 'center', textTransform: 'uppercase' }}>Contacto</div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>lucastorodesign@gmail.com</div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>011 15 39368411</div>
+      <div style={{ fontSize: 15, marginBottom: 6, color: '#444', fontWeight: 300, letterSpacing: '0.01em', textAlign: 'center', lineHeight: 1.4 }}>Instagram: <a href="https://instagram.com/lucasdepalomar" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lucasdepalomar</a> | <a href="https://instagram.com/lngchps" target="_blank" style={{ color: '#888', textDecoration: 'none' }}>@lngchps</a></div>
     </section>
   );
 }
